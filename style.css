@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+.menu {
+
+    justify-content: center;
+    font-family: 'Adamina', serif;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+      "welcome about us menu logo story contact buy now";
+    gap: 60px;
+    font-size: 14px;
+}
+
+.texto-menu:nth-child(1) {
+    text-align: left;
+    margin-top: 17px;
+}
+
+.foto {
+    width: 114px;
+    height: 7px;
+    text-align: left;
+    margin: -12px;
+}
+
+.texto-menu:nth-child(2) {
+    text-align: left;
+    margin-top: 17px;
+}
+
+.texto-menu:nth-child(3) {
+    text-align: left;
+    margin-top: 17px;
+}
+
+.texto-menu:nth-child(4) {
+    text-align: center;
+}
+
+.texto-menu:nth-child(5) {
+    text-align: right;
+    margin-top: 17px;
+}
+
+.texto-menu:nth-child(6) {
+    text-align: right;
+    margin-top: 17px;
+}
+
+.texto-menu:nth-child(7) {
+    text-align: right;
+    margin-top: 17px;
+}
